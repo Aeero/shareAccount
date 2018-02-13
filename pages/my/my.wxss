@@ -1,0 +1,55 @@
+/* pages/my/my.wxss */
+.my {
+}
+.my-item {
+  margin: 25rpx 0;
+  padding: 30rpx;
+  background-color: #fff;
+}
+.my-item navigator {
+  font-size: small;
+}
+.my-userinfo {
+}
+.my-userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+  vertical-align: top;
+}
+.my-userinfo-nickName {
+  vertical-align: top;
+  color: #ccc;
+  margin-left: 10rpx;
+}
+
+.my-account-group-wrap {
+}
+
+.my-account-group-header {
+  padding: 0 0 10rpx;
+  border-bottom: 1px dotted #ccc;
+}
+.my-account-group-header-title {
+  font-size: small;
+}
+.my-account-group-header-fn {
+  float: right;
+  font-size: x-small;
+  color: gray;
+  margin-top: 9rpx;
+  margin-left: 15rpx;
+}
+
+.my-account-group-list {
+  padding: 20rpx 15rpx;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.my-account-group-item {
+  display: inline-block;
+  width: 190rpx;
+  height: 180rpx;
+  margin: 15rpx 17rpx 8rpx;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.18);
+}

@@ -1,0 +1,38 @@
+<!--pages/my/my.wxml-->
+<view class="my">
+  <view class="my-userinfo my-item">
+    <image class="my-userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="my-userinfo-nickName">{{userInfo.nickName}}</text>
+  </view>
+
+  <view class="my-item">
+    <navigator>分享记录</navigator>
+  </view>
+
+  <view class="my-account-group my-item">
+    <view class="my-account-group-header">
+      <text class="my-account-group-header-title">我的账号</text>
+      <text class="my-account-group-header-fn">管理账号</text>
+      <text class="my-account-group-header-fn">添加更多</text>
+    </view>
+    <scroll-view scroll-x="true" class="my-account-group-list">
+      <view class="my-account-group-item">
+      </view>
+      <view class="my-account-group-item">
+      </view>
+      <view class="my-account-group-item">
+      </view>
+      <view class="my-account-group-item">
+      </view>
+      <view class="my-account-group-item">
+      </view>
+      <view class="my-account-group-item">
+      </view>
+      <view class="my-account-group-item">
+      </view>
+      <view class="my-account-group-item">
+      </view>
+
+    </scroll-view>
+  </view>
+</view>
