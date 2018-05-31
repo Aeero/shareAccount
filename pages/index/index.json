@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ribbon": "/components/ribbon/ribbon"
+  }
+}

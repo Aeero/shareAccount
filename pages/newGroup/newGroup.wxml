@@ -1,0 +1,6 @@
+<!--pages/newGroup/newGroup.wxml-->
+<view>
+  <view class="newGroup-user-item">
+    
+  </view>
+</view>

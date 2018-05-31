@@ -7,12 +7,25 @@ Page({
     motto: '分享账号',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    groups: [{
+      img: '',
+      name: '群1',
+      isCreator: true
+    }, {
+      img: '',
+      name: '群2'
+    }]
   },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
+    })
+  },
+  newGroup: function() {
+    wx.navigateTo({
+      url: '../newGroup/newGroup'
     })
   },
   onLoad: function () {

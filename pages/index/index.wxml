@@ -12,7 +12,23 @@
   </view>
 </view> -->
 
-<view class="home">
-  <button size="default" type="default">test</button>
-  <button size="default" type="primary">新建分享群</button>
+<view class="index">
+  <view class="index-search">
+    <input class="index-search-input"></input>
+    <image class="index-search-icon" src="/images/search-sm.png"></image>
+  </view>
+  <view class="group">
+    <view class="group-item" wx:for="{{groups}}" wx:for-item="item">
+      <ribbon>as</ribbon>
+      <view class="group-item-title">
+        {{item.name}}
+      </view> 
+      <view class="group-item-content">
+        <image class='group-item-img'></image>      
+      </view> 
+    </view>
+    
+  </view>
+  
+  <!-- <button size="default" type="primary" bindtap="newGroup">新建分享群</button> -->
 </view>

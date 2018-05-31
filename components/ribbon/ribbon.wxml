@@ -1,0 +1,4 @@
+<!--components/ribbon/ribbon.wxml-->
+<view class="ribbon">
+  <image src="/images/creator.png" class="ribbon-img"></image>
+</view>

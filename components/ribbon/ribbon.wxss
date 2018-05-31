@@ -1,0 +1,17 @@
+/* components/ribbon/ribbon.wxss */
+.ribbon {
+  position: absolute;
+  right: -3px;
+  top: 24px;
+  padding: 0px 6px 0px 10px;
+  height: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #a2c7f5;
+  border: 1px solid #f3f3f3;
+}
+.ribbon-img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
