@@ -1,0 +1,20 @@
+{
+  "name": "shareAccount",
+  "homepage": "https://github.com/Aeero/shareAccount",
+  "authors": [
+    "'Aeero' <'lhf_personal@126.com'>"
+  ],
+  "description": "---",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "zanui-weapp": "^3.0.4"
+  }
+}

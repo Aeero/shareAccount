@@ -11,7 +11,7 @@
   border: 1px solid #f3f3f3;
 }
 .ribbon-img {
-  width: 16px;
-  height: 16px;
+  width: 32rpx;
+  height: 32rpx;
   vertical-align: middle;
 }

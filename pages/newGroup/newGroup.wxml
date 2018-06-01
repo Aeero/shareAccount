@@ -1,6 +1,38 @@
 <!--pages/newGroup/newGroup.wxml-->
 <view>
-  <view class="newGroup-user-item">
-    
+  <view class="page-newGroup">
+    <zan-field
+      title="组名"
+      placeholder=""
+      value="{{ groupName }}"
+    >
+    </zan-field>
+
+    <zan-panel title="是否需要密码">
+      <view class="field-password">
+        <zan-switch checked="{{ needPassword }}" bind:change="onPasswordSwitch"></zan-switch>
+        <view class="field-password-input-wrap" wx:if="{{ needPassword }}">
+          <input
+            class="field-password-input"
+            type="text"
+            placeholder="请输入4位密码"
+            value="{{ password }}"
+            password="{{ true }}"
+            focus="{{ needPassword }}"
+          >
+          </input>
+        </view>
+      </view>
+    </zan-panel>
+
+    <zan-panel title="描述">
+      <textarea class="field-intro">
+
+      </textarea>
+    </zan-panel>
+
+    <view class="submit">
+      <zan-button type="primary">创建</zan-button>
+    </view>
   </view>
 </view>

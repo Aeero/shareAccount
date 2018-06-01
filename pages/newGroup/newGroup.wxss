@@ -1,1 +1,34 @@
 /* pages/newGroup/newGroup.wxss */
+.page-newGroup {
+  padding: 20rpx 0;
+}
+
+.field-password {
+  padding: 20rpx 10rpx;
+  display: flex;
+}
+
+.field-password-input-wrap {
+  border-left: 1px solid #ccc;
+  margin-left: 24rpx;
+  padding-left: 20rpx;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.field-password-input {
+  font-size: 32rpx;
+  width: 100%;
+  padding: 0 20rpx;
+}
+
+.field-intro {
+  height: 200rpx;
+  padding: 20rpx;
+}
+
+.submit {
+  margin-top: 40rpx;
+  padding: 0 10rpx;
+}

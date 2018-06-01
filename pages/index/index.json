@@ -1,5 +1,5 @@
 {
   "usingComponents": {
-    "ribbon": "/components/ribbon/ribbon"
+    "groupCard": "/components/groupCard/groupCard"
   }
 }

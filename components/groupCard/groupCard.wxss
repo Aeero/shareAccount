@@ -1,0 +1,29 @@
+/* components/groupCard/groupCard.wxss */
+.group-item {
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  height: 260rpx;
+  margin-bottom: 32rpx;
+  position: relative;
+}
+
+.group-item-title {
+  font-size: 28rpx;
+  line-height: 56rpx;
+  text-align: center;
+  border-bottom: 1px solid #f3f3f3;
+  color: #999;
+}
+
+.group-item-content {
+  padding: 10px;
+}
+
+.group-item-img {
+  width: 100rpx;
+  height: 100rpx;
+  border: 1px solid #eee;
+  vertical-align: top;
+  margin-right: 20rpx;
+}

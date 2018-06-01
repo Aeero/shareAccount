@@ -1,1 +1,8 @@
-{}
+{
+  "usingComponents": {
+    "zan-field": "/bower_components/zanui-weapp/dist/field/index",
+    "zan-switch": "/bower_components/zanui-weapp/dist/switch/index",
+    "zan-panel": "/bower_components/zanui-weapp/dist/panel/index",
+    "zan-button": "/bower_components/zanui-weapp/dist/btn/index"
+  }
+}

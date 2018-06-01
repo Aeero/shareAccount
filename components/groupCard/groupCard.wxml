@@ -1,0 +1,10 @@
+<!--components/groupCard/groupCard.wxml-->
+<view class="group-item">
+  <ribbon></ribbon>
+  <view class="group-item-title">
+    {{data.name}}
+  </view> 
+  <view class="group-item-content">
+    <image class='group-item-img'></image>      
+  </view> 
+</view>
